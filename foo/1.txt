@@ -10,3 +10,4 @@ another change between a polling cycle
 updating 1.txt
 a test update
 change in one polling cycle
+quick change
