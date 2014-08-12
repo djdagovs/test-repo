@@ -11,3 +11,4 @@ updating 1.txt
 a test update
 change in one polling cycle
 quick change
+a second quick change
