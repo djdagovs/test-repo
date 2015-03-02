@@ -8,7 +8,4 @@
 #
 #
 
-
-bash "create a test file" do
-  code "echo herp > /var/tmp/derp"
-end
+python_pip "ansible"
