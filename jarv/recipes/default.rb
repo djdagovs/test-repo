@@ -19,6 +19,7 @@ python_pip "ansible"
 apt_repository "puppet" do
   distribution node['lsb']['codename']
   uri "https://apt.puppetlabs.com"
+  components ['main']
   keyserver "pool.sks-keyservers.net"
   key "4BD6EC30"
 end
