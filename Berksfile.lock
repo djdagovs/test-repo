@@ -1,7 +1,9 @@
 DEPENDENCIES
+  apt
   python
 
 GRAPH
+  apt (2.6.1)
   build-essential (2.1.3)
   python (1.4.6)
     build-essential (>= 0.0.0)
