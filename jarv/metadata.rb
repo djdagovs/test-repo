@@ -5,6 +5,5 @@ license          'All rights reserved'
 description      'Installs/Configures jarv'
 long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 version          '0.1.0'
-dependency       'python'
-dependency       'apt'
-
+depends          'python'
+depends          'apt'
