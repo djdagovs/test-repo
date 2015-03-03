@@ -23,3 +23,7 @@ apt_repository "puppet" do
   keyserver "pool.sks-keyservers.net"
   key "4BD6EC30"
 end
+
+apt_package "puppet" do
+  action :install
+end
