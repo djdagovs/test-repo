@@ -10,7 +10,6 @@
 include_recipe 'python'
 include_recipe 'python::pip'
 include_recipe 'apt'
-include_recipe 'apt::repository'
 
 # install ansible using pip
 python_pip "ansible"
